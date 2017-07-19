@@ -5,6 +5,8 @@ body{
 .Cabecera{
   background-color: #5b7989;
   border-radius: 10px 10px 0px 0px;
+  width: 70%;
+  margin-left: 15%;
 }
 
 .Titulo{
@@ -15,7 +17,7 @@ body{
 
 #menu_nav{
   display: inline-flex;
-  margin-left: 55%;
+  margin-left: 25%;
 }
 
 nav > a{
@@ -33,5 +35,44 @@ nav > a{
 }
 
 .img_1 img{
-  width: 50%;
+  width: 60%;
+}
+
+#seccion_2 .img_contenedor{
+
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+    background-color: #d5c75f;
+    border: 1px;
+    margin-left: 15%;
+}
+
+#seccion_2 .img_contenedor .img_2{
+  display: inline-block;
+  width: 34%;
+}
+
+#seccion_2 .img_contenedor .img_2 img{
+  width: 100%;
+}
+
+#seccion_2 .img_contenedor #sec_img img:hover{
+  transform: rotate(10deg);
+  transition: transform 1.5s;
+
+}
+#seccion_2 .img_contenedor #sec_img img{
+  box-shadow:2px 2px #82c3a6;
+  border: 2px solid black;
+}
+
+#seccion_2 .img_contenedor #ter_img img{
+  box-shadow:2px 2px #82c3a6;
+  border: 2px solid black;
+}
+
+#seccion_2 .img_contenedor #ter_img img:hover{
+  transform: translate(20px, -5px);
+  transition: transform 1.5s;
 }
