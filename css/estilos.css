@@ -22,10 +22,16 @@ nav > a{
   color: White;
 }
 
-nav>a:visited{
-  text-decoration: none;
+.img_1{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #82c3a6;
+  width: 70%;
+  margin-left: 15%;
+
 }
 
-nav>a:link{
-  text-decoration: underline;
+.img_1 img{
+  width: 50%;
 }
