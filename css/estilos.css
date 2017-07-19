@@ -1,0 +1,31 @@
+body{
+  background-color:  #02010a;
+}
+
+.Cabecera{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.Titulo{
+  display: inline-block;
+  color: White;
+  text-shadow: 2px 2px #02010a;
+}
+
+#menu_nav{
+  display: inline-flex;
+  margin-left: 55%;
+}
+
+nav > a{
+  color: White;
+}
+
+nav>a:visited{
+  text-decoration: none;
+}
+
+nav>a:link{
+  text-decoration: underline;
+}
