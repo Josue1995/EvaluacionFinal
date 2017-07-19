@@ -76,3 +76,21 @@ nav > a{
   transform: translate(20px, -5px);
   transition: transform 1.5s;
 }
+footer{
+  width: 70%;
+  margin-left: 15%;
+}
+
+.footer_content{
+  background-color: #C6d5c5;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer_element{
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  vertical-align: top;
+  margin-left: 2%;
+}
