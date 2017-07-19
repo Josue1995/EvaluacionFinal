@@ -3,6 +3,67 @@ body{
   font-family: DancingScript-Regular;
 }
 
+@media (min-width:1000px) {
+  .contenido{
+    width: 900px;
+    margin-left: 15%;
+  }
+}
+
+@media(max-width:400px){
+  .Cabecera{
+    width: 100%;
+    margin: 0%;
+  }
+
+  .Cabecera .Titulo{
+    width: 80%;
+    font-size: 0.5em;
+    text-align: center;
+  }
+
+  .Cabecera #menu_nav{
+    width: 80%;
+    margin-left: 15%;
+  }
+
+  #seccion_1 .img_1{
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  #seccion_1 .img_1 img{
+    width: 100%;
+  }
+
+  #seccion_2 .img_contenedor{
+    width: 80%;
+  }
+
+  #seccion_2 .img_contenedor #sec_img{
+    width: 100%;
+    display: block;
+  }
+
+  #seccion_2 .img_contenedor #ter_img{
+    width: 100%;
+    display: block;
+  }
+
+  footer{
+    width: 80%;
+  }
+
+  footer .footer_element{
+    display:flex;
+    flex-direction: column;
+    margin-left: 5%;
+    text-align: center;
+    width: 80%;
+  }
+
+}
+
 @font-face {
   font-family: 'DancingScript-Regular';
   src: url('../tipografia/DancingScript-Regular.ttf');
