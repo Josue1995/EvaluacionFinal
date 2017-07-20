@@ -3,6 +3,12 @@ body{
   font-family: DancingScript-Regular;
 }
 
+@font-face {
+  font-family: 'DancingScript-Regular';
+  src: url('../tipografia/DancingScript-Regular.ttf');
+
+}
+
 
 @-webkit-keyframes slidein {
 
@@ -22,30 +28,24 @@ body{
   animation: slidein 1.5s;
 }
 
-@font-face {
-  font-family: 'DancingScript-Regular';
-  src: url('../tipografia/DancingScript-Regular.ttf');
-
-}
-
 @media (min-width: 200px) and (max-width: 800px){
   .contenido{
     width: 100%;
     margin: 0%;
   }
 
-  .Cabecera_paisajes{
+  .Cabecera_retratos{
     width: 100%;
     margin: 0%;
   }
 
-  .Cabecera_paisajes .Titulo_paisajes{
+  .Cabecera_retratos .Titulo_retratos{
     width: 80%;
     font-size: 1.5em;
     text-align: center;
   }
 
-  .Cabecera_paisajes #menu_nav_paisajes{
+  .Cabecera_retratos #menu_nav_retratos{
     width: 80%;
     margin-left: 30%;
     text-align: center;
@@ -77,21 +77,21 @@ body{
 
 }
 
-.Cabecera_paisajes{
+.Cabecera_retratos{
   background-color: #5b7989;
   border-radius: 10px 10px 0px 0px;
   width: 70%;
   margin-left: 15%;
 }
 
-.Titulo_paisajes{
+.Titulo_retratos{
   display: inline-block;
   color: White;
   text-shadow: 2px 2px #02010a;
   margin-left: 3%;
 }
 
-#menu_nav_paisajes{
+#menu_nav_retratos{
   display: inline-flex;
   margin-left: 35%;
 }
