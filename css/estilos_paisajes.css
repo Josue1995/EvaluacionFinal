@@ -9,6 +9,33 @@ body{
 
 }
 
+@media (max-width: 200px) and (min-width: 800px){
+  .contenido{
+    width: 100%;
+    margin: 0%;
+  }
+
+  .Cabecera_paisajes{
+    width: 100%;
+    margin: 0%;
+  }
+
+  .Cabecera_paisajes .Titulo_paisajes{
+    width: 80%;
+    font-size: 0.5em;
+    text-align: center;
+  }
+
+  .Cabecera_paisajes #menu_nav_paisajes{
+    width: 80%;
+    margin-left: 15%;
+  }
+
+  
+
+
+}
+
 .Cabecera_paisajes{
   background-color: #5b7989;
   border-radius: 10px 10px 0px 0px;
@@ -30,4 +57,58 @@ body{
 
 nav > a{
   color: White;
+}
+
+.galeria_content{
+  background-color: #d5c75f;
+  text-align: center;
+  display: inline-block;
+  margin-left: 15%;
+  width: 70%;
+}
+
+.galeria_content .galeria_element{
+  display: inline-block;
+  width: 30%;
+}
+
+.galeria_content .galeria_element img{
+  width: 100%;
+  box-shadow: 2px 2px #82c3a6;
+  border: 2px solid black;
+}
+
+#imagen1{
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+
+}
+
+#imagen2, #imagen4, #imagen6{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#imagen3{
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
+}
+
+footer{
+  width: 70%;
+  margin-left: 15%;
+}
+
+.footer_content{
+  background-color: #C6d5c5;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer_element{
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  vertical-align: top;
+  margin-left: 2%;
 }
