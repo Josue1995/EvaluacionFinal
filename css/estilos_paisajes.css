@@ -1,0 +1,33 @@
+body{
+  background-color:  #02010a;
+  font-family: DancingScript-Regular;
+}
+
+@font-face {
+  font-family: 'DancingScript-Regular';
+  src: url('../tipografia/DancingScript-Regular.ttf');
+
+}
+
+.Cabecera_paisajes{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.Titulo_paisajes{
+  display: inline-block;
+  color: White;
+  text-shadow: 2px 2px #02010a;
+  margin-left: 3%;
+}
+
+#menu_nav_paisajes{
+  display: inline-flex;
+  margin-left: 35%;
+}
+
+nav > a{
+  color: White;
+}
